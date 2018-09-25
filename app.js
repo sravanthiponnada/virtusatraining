@@ -46,3 +46,12 @@ function numbersOnly(event){
     return true;
 
 }
+function myFunction(){
+    var a=document.getElementById("fname");
+    a.value=a.value.toUpperCase();
+}
+
+function color(x)
+{
+    x.style.background="green";
+}
